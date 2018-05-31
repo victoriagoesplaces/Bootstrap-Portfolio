@@ -12,8 +12,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+    width: 960px;
+    margin: 10px;
     clear: both;
 }
 
@@ -53,18 +53,19 @@ h2, h3 {
     width:100%;
 }
 
+.navbar-header{
+    color: #fff;
+}
 .navbar-brand {
     width: 300px;
     height: 90px;
     background: #4aaaa5;
-    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif|
     text-align: center;
     line-height: 50px;
-    color: #fff;
     font-weight: 700;
+    color: #fff;
     font-size: 28px;
-    text-decoration: none;
     padding-left: 32px;
 }
 
@@ -91,12 +92,13 @@ nav a:first-child {
 .container {
     background: #fff;
     padding: 30px;
-    margin: 40px 0 40px 0;
+    margin: 120px 0 125px 25px;
     width: 100%;
     max-width: 960px;
     float: left;
     border: 1px solid #ddd;
     text-align: justify;
+    
 }
 
 
@@ -109,4 +111,16 @@ nav a:first-child {
     color: #acc;
     font-size: 12px;
     text-align: center;
+}
+
+.thumbnail {
+   width: 225px;
+   height: auto;
+}
+
+
+.placeholder {
+    width: 275px;
+    height: 180px;
+    margin-right: 10px;
 }
